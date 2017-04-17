@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:gravity="top"
+        android:hint="请输入你的请求体:"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="您的请求体是"
+        />
+    <TextView
+        android:id="@+id/textrespond"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="respond:"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textresule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="result:"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:text="点击刷新"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

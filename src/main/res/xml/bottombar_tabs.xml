@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs >
+    <tab
+        id="@+id/tab_zhaopin"
+        icon="@drawable/zhaopin"
+        title="智联" />
+    <tab
+        id="@+id/tab_51job"
+        icon="@drawable/job51"
+        title="51job" />
+
+</tabs>
